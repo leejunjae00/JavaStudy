@@ -1,0 +1,48 @@
+package studyKorea02ifexample;
+
+public class IfExample2 {
+
+	public static void main(String[] args) {
+		int age=15;
+		int charge;
+		
+		if(age<8) {
+			charge = 1000;
+			System.out.println("취학전 아동입니다.");
+		}else if(age < 14) {//8 <= age <14
+			charge = 2000;
+			System.out.println("초등학생입니다.");
+		}else if(age < 20) {
+			charge = 2500;
+			System.out.println("중,고등학생입니다.");
+		}else {//age>20
+			charge = 3000;
+			System.out.println("성인입니다.");
+		}
+		System.out.println("입장료는"+charge+"원 입니다");
+	}
+}
+
+------------------------------------
+삼항연산
+package studyKorea02ifexample;
+
+public class IfExample4 {
+
+	public static void main(String[] args) {
+		int max;
+		int a = 20;
+		int b = 30;
+		if(a > b) {
+			max = a;
+		}else {
+			max = b;
+		}
+		System.out.println(max);
+		
+		max = (a>b) ? a : b;
+		System.out.println(max);
+	}
+
+}
+
