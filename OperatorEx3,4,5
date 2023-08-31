@@ -1,0 +1,58 @@
+package studyKorea01;
+
+public class OperatorEx3 {
+
+	public static void main(String[] args) {
+		//boolean result1 = true && true;//둘다 참
+		//System.out.println(result1);
+		
+		//boolean result = false || true;
+		//System.out.println(result);
+		
+		//boolean result = true;
+		//System.out.println(!result); //부정
+		
+		int num = 10;
+		boolean result = num > 5 && num<20; 
+		System.out.println(result);
+		
+	}
+
+}
+
+---------------------------------------
+package studyKorea01;
+
+public class OperatorExa4 {
+
+	public static void main(String[] args) {
+		int num1 = 10;
+		num1 +=2;//12
+		num1 +=2;//14
+		
+		System.out.println(num1);
+		
+		num1 %= 3; //num1 = num1 %3//2
+		System.out.println(num1);
+
+	}
+
+}
+
+---------------------------------------
+
+package studyKorea01;
+
+public class OperatorEx5 {
+
+	public static void main(String[] args) {
+		int age1 = 45;
+		int age2 = 47;
+		
+		char ch = (age1>age2)?'T':'F';
+		System.out.println(ch);
+
+	}
+
+}
+
