@@ -1,0 +1,18 @@
+package studyKorea02loopExample;
+
+public class ForEx99 {
+
+	public static void main(String[] args) {
+			int i;
+			int a;
+			
+			for(i=2; i <= 9; i++) {
+				for(a=1; a <= 9; a++) {
+					System.out.println(i + "X" + a + " = " + i * a);
+				}
+				System.out.println();
+			}
+			
+	}
+
+}
